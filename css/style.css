@@ -273,43 +273,36 @@ justify-content:center;
     justify-content:center;
     flex-wrap:wrap;
 }
-
 .game-card{
     width:320px;
-    background:#17171f;
+    background:#161622;
+    border:1px solid rgba(123,44,255,.25);
     border-radius:18px;
     overflow:hidden;
-    transition:.35s;
-    border:1px solid #2d2d40;
-}
-
-.game-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 0 30px rgba(123,44,255,.4);
-}
-
-.game-card img{
-    width:100%;
-    display:block;
+    transition:.4s;
 }
 
 .game-card h3{
-    padding:18px;
-    font-size:22px;
+    color:#ffffff;
+    padding:20px 20px 10px;
 }
 
 .game-card p{
-    padding:0 18px;
-    color:#cccccc;
+    color:#bbbbbb;
+    padding:0 20px;
 }
 
 .game-card a{
     display:inline-block;
-    margin:20px 18px;
-    padding:12px 24px;
+    margin:20px;
+    padding:12px 25px;
     border-radius:30px;
     text-decoration:none;
-    background:linear-gradient(90deg,#7b2cff,#1f8fff);
     color:white;
-    font-weight:600;
+    background:linear-gradient(90deg,#7b2cff,#1f8fff);
+}
+
+.game-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 0 35px rgba(123,44,255,.45);
 }
