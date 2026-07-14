@@ -306,3 +306,74 @@ justify-content:center;
     transform:translateY(-12px);
     box-shadow:0 0 35px rgba(123,44,255,.45);
 }
+/* ===============================
+   GAME CATEGORIES
+=============================== */
+
+.categories{
+
+    padding:90px 8%;
+
+    color:white;
+
+}
+
+.categories h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:50px;
+
+}
+
+.category-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+}
+
+.category-card{
+
+    background:#161622;
+
+    border:1px solid rgba(123,44,255,.25);
+
+    border-radius:18px;
+
+    padding:40px;
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+.category-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 30px rgba(123,44,255,.4);
+
+}
+
+.category-card span{
+
+    font-size:55px;
+
+}
+
+.category-card h3{
+
+    margin-top:20px;
+
+    color:white;
+
+    font-size:25px;
+
+}
